@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Carlos_Rueda</string>
+    <string name="txt_listado">listado de productos</string>
+    <string name="txt_detalle">detalle de producto</string>
 </resources>

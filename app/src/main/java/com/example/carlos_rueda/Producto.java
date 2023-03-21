@@ -1,7 +1,9 @@
 package com.example.carlos_rueda;
 
 
-public class Producto {
+import java.io.Serializable;
+
+public class Producto implements Serializable {
 
     private String nombre;
     private Double precio;
