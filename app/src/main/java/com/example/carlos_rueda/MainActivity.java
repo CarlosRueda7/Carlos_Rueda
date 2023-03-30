@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(Producto miProducto, int posicion) {
 
                 Intent intent = new Intent(MainActivity.this, DetalleActivity.class);
-                intent.putExtra("producto",miProducto);
+                intent.putExtra("producto",miProducto );
                 startActivity(intent);
 
             }
