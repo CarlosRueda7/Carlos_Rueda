@@ -67,4 +67,10 @@ public class MainActivity extends AppCompatActivity {
         finish();
 
     }
+
+    public void clickAgregarProducto(View view){
+        startActivity(new Intent(this, FormularioActivity.class));
+    }
+
+
 }

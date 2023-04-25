@@ -65,7 +65,7 @@
             app:layout_constraintTop_toBottomOf="@+id/etNombre" />
 
         <EditText
-            android:id="@+id/etPrecio2"
+            android:id="@+id/etImagen"
             android:layout_width="212dp"
             android:layout_height="32dp"
             android:layout_marginStart="99dp"
@@ -88,9 +88,10 @@
             android:layout_marginStart="128dp"
             android:layout_marginTop="108dp"
             android:background="@drawable/shape_btn"
+            android:onClick="clickGuardar"
             android:text="Enviar"
             android:textColor="#F79800"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etPrecio2" />
+            app:layout_constraintTop_toBottomOf="@+id/etImagen" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
