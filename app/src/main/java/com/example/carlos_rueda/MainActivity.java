@@ -103,5 +103,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, FormularioActivity.class));
     }
 
-
 }
