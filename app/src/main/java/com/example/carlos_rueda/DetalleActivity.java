@@ -45,12 +45,15 @@ public class DetalleActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        /*
         Producto product = (Producto) getIntent().getSerializableExtra("Producto");
         Intent addIntent = new Intent(this,FormularioActivity.class);
         addIntent.putExtra("editar","1");
         addIntent.putExtra("nam", product.getNombre());
         startActivity(addIntent);
         finish();
+
+         */
+
     }
 }
